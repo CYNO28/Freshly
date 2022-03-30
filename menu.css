@@ -21,6 +21,7 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     margin-top: 40px;
+    /* overflow: hidden; */
 }
 
 .overlayDiv {
@@ -92,16 +93,38 @@ h1{
     width: 310px;
     margin: 0px 0px 0px 0px;
     padding: 8px;
-    transition: transform .2s;
+    /* transition: transform .2s; */
+    overflow: hidden;
+ 
+   object-fit: cover;
+}
+.img_div_container{
+    height: 287px;
+    width: 310px;
+    border-radius: 1.215rem;
+    
+    /* border: 1px solid red; */
+
     overflow: hidden;
 }
+.img_div_container+h2{
+padding-top: .675rem;
+} 
+
 .imageAnimate{
     height: 287px;
     width: 310px;
+
     margin: 0px 0px 16px 0px;
 }
 .imageAnimate:hover{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    transform: translate3d(0px, 0px, 0px) scale3d(1.1, 1.1, 1) rotateX( 0deg) rotateY( 0deg) rotateZ( 0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+    transform-style:preserve-3d;
+    transition: 1.25s;
+
+    object-fit: cover;
 }
 .dietPlan{
     padding: 64px 32px;
