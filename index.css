@@ -45,6 +45,7 @@ body{
     justify-content: center;
     align-items: center;
     position: sticky;
+    z-index: 99999999;
     top:0
 }
 .nav_container_div{
