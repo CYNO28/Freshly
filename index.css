@@ -119,6 +119,7 @@ padding: 0 1rem;
     }
 .nav_left>button:nth-child(1):hover{
  color: #3167fa;
+ transform: none;
   
     
     
@@ -201,12 +202,7 @@ padding: 0 1rem;
 
 
 /* sec section start here */
-body{
-    margin: 0;
-    font-family: Favoritfreshly,sans-serif;
-    line-height: 1.43em;
-  
-}
+
 .how_it_works{
     background-color: #fffdf7;
     padding: 4rem 2rem;
@@ -246,11 +242,6 @@ p.hiw_heading{
     margin-top:0px ;
     /* margin-top:1px ; */
     font-size: .875rem;
-}
-body{
-    margin: 0;
-    font-family: Favoritfreshly,sans-serif;
-    line-height: 1.43em;
 }
 
 
@@ -334,11 +325,7 @@ gap:.847rem;
     
 
 }
-body{
-    margin: 0;
-    font-family: Favoritfreshly,sans-serif;
-    line-height: 1.43em;
-}
+
 .fpt_container{
     display: flex;
     justify-content: center;
@@ -436,11 +423,6 @@ button.fpt_end_signup{
     height: 9.9925rem;
     border-radius: 1rem;
     background-size: cover;
-}
-body{
-    margin: 0;
-    font-family: Favoritfreshly,sans-serif;
-    line-height: 1.49625rem;
 }
 
 
@@ -749,4 +731,9 @@ p.zip_lable{
 .logo_lines>img{
     width: 10.625rem;
     padding: 2rem 1.5rem;
+}
+button:hover{
+    transform:translate(2px,-2px);
+    cursor: pointer;
+  
 }
