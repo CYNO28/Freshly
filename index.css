@@ -737,3 +737,16 @@ p.zip_lable{
     margin: 0 0 .5rem;
     color: #fff;
 }
+
+
+.logo_lines{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f7f7f7;
+    padding: 2rem 1.125rem;
+}
+.logo_lines>img{
+    width: 10.625rem;
+    padding: 2rem 1.5rem;
+}
