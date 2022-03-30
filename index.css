@@ -747,3 +747,56 @@ button:hover{
     cursor: pointer;
   
 }
+
+
+
+/* slider */
+
+div.slide_element>img{
+    width: 10.375rem;
+    margin:auto ;
+    margin-bottom: 2.5rem;
+}
+.slide_container{
+    position: relative;
+    margin: 0 2rem;
+    width: 80%;
+    margin:auto;
+  
+}
+.slide_element{
+    transition: 1s;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+.slide_element>p:nth-child(3){
+    font-size: .675rem;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.slide_element>p:nth-child(4){
+font-size: .875rem;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+}
+
+div.slide_element>h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #303030;
+    margin: 0 0 .5rem;
+}
+h1.slider_div{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5rem;
+    padding-top: 5rem;
+
+}
+.slider_super{
+    background-color: #fffdf7;
+}
