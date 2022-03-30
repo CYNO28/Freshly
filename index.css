@@ -380,7 +380,17 @@ button.fpt_end_signup{
     color: #ffffff;
     background-color: #3167ff;
 }
+.fpt_grid_item_container>div>p{
+    position: absolute;
+    font-size: .875rem;
+    font-weight: 700;
+    background-color: #85e5c6;
+    color: #323232;
+    margin:.5rem 0 0 .5rem ;
+    padding:0 .5rem;
 
+    border-radius: .5rem;
+}
 
 
 
