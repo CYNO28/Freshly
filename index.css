@@ -126,9 +126,11 @@ padding: 0 1rem;
     
 }
 .ham_icon{
-    display: none;
+    display:none ;
 }
-
+#sec_sec_respo_btn{
+display: none;
+}
 
 
 /* responsive */
@@ -153,7 +155,6 @@ padding: 0 1rem;
     }
     div.sec_section{
         flex-direction: column;
-        border: 1px solid red;
         box-sizing: border-box;
         width: 100%;
 
@@ -169,16 +170,62 @@ padding: 0 1rem;
         align-self: center;
         width: 100%;
         background-size:auto, cover;
+        height: 25.875rem;
+        padding:3.125rem;
+    }
 
+    .sec_section_right_container{
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        
+        bottom: -12rem;
     }
         
-    
-
-
-
+    #sec_sec_respo_btn{
+        display: inline;
+        background-color: #3167fa;
+        border: none;
+        color: white;
+        width: 7.625rem;
+        margin: 2rem 0;
+        height: 2.8rem;
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 10rem;
+    }
+    #hiw_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        margin-top: 2rem;
+    }
+.how_it_works{
+    margin-top: 4rem;
+}
+#hiw_container>div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    block-size: fit-content;
 }
 
 
+
+ 
+}
 
 
 
@@ -489,11 +536,7 @@ padding: 4rem 2rem;
 }
 
 
-body{
-    margin: 0;
-    font-family: Favoritfreshly,sans-serif;
-    line-height: 1.43em;
-}
+
 #healthy_meals_img{
 
     background-image:url(https://assets-global.website-files.com/5d03b4e130118314af624b20/61f1274f0c096f517bb89ed5_22_Homepage_HealthyMealsDelivered_866x708.jpg);
