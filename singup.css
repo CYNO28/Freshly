@@ -1,4 +1,7 @@
-
+*{
+    font-family: FavoritFreshly,Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+    
     @media screen and (max-width: 600px) {
         .column, input[type=submit] {
           width: 100%;
@@ -29,6 +32,7 @@
         width: 30%;
       display: flex;
       justify-content: space-between;
+      align-items: center;
       margin: auto;
     
         }
@@ -39,14 +43,16 @@
     .imgmain img{
           width: 100px;
           height: 100px;
+          cursor: pointer;
        
        
     }
     .box1 img{
         height: 14px;
         width: 14px;
-        color: #d0d0d0
-        
+        color: #d0d0d0;
+        cursor: pointer;
+
        
     }
     .box1{
