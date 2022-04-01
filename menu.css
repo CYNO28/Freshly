@@ -399,3 +399,67 @@ i{
     padding-left: 10px;
     padding-bottom: 15px;
 }
+/* Common Question Start */
+#back{
+    background-color:white;
+   
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+   
+}
+ span{
+     height: 20px;
+     width: 20px;
+ }
+ hr{
+     
+    margin: 2rem;
+ }
+ details{
+     padding-left: 40px;
+  
+ }
+ details > summary {
+     display: flex;
+     justify-content: space-between;
+     /* padding: 1rem; */
+     font-size: 1rem;
+     cursor: pointer;
+     list-style: none;
+     color: #7a97ff;
+
+
+ }
+ details > summary::after{
+    content: url(./images/img.svg);
+    width: 15px;
+    height: 15px;
+    margin-right: 40px;
+    
+    
+}
+ details > summary::-webkit-details-marker{
+     display: none;
+ }
+ .details-contant{
+     font-size: 1rem;
+     padding: 0rem ;
+ }
+ summary:hover{
+     color: blue;
+ }
+ /* Common Question End */
+
+ #visit_link{
+     text-align: center;
+     margin: auto;
+ }
+ #visit_link>h4{
+     font-size: 28px;
+     color: #003300;
+     margin: 0px;
+     margin-bottom: 5px;
+ }
