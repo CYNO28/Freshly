@@ -96,3 +96,14 @@ img {
     color: #2a6dff;
     text-decoration: underline;
 }
+#footer{
+    width: 100vw;
+    position: relative;
+    bottom: 0;
+    /* left: 0; */
+    margin-top:3rem;
+
+    border-top: 2px solid #dee2e6;
+    margin-left: -150%;
+
+}
