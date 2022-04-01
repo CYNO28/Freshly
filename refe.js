@@ -4,6 +4,7 @@ let popup = document.querySelector(".popup"),
 button.addEventListener("click", openPop);
 
 function openPop(){
+  event.preventDefault();
   popup.style.display = "Block";
 }
 
