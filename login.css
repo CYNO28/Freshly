@@ -2,6 +2,7 @@
     /* border: 1px solid red; */
     height: 500px;
     width: 100%;
+
 }
 #container-top{
 /* border: 1px solid blue; */
@@ -14,7 +15,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 
 }
 #container-top >div {
     /* border: 1px solid red; */
-    height: 100%;
+
     width: 30%;
   display: flex;
   justify-content: space-between;
@@ -95,4 +96,15 @@ img {
 .box1 a:hover{
     color: #2a6dff;
     text-decoration: underline;
+}
+#footer{
+    width: 100vw;
+    position: relative;
+    bottom: 0;
+    /* left: 0; */
+    margin-top:3rem;
+
+    border-top: 2px solid #dee2e6;
+    margin-left: -150%;
+
 }
