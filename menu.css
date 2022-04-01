@@ -396,8 +396,9 @@ font-weight: 550;
     color:#666666
 }
 i{
-    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 15px;
+    margin-left: 0px;
 }
 /* Common Question Start */
 #back{
