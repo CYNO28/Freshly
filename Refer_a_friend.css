@@ -1,15 +1,8 @@
 
-* {
-  box-sizing: border-box;
-}
 
 
 
 
-
-.button:active {
-  transform: scale(0.9);
-}
 
 .popup {
   
