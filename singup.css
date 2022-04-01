@@ -144,6 +144,7 @@
           margin-left: 20px;
       }
    
+      /* Common Question Start from Here */
      #back{
         background-color:white;
        
@@ -192,7 +193,7 @@
      summary:hover{
          color: blue;
      }
-
+     /* To Here */
 
 
 
