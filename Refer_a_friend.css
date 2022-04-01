@@ -73,6 +73,8 @@ margin: auto;
     border: none;
     font-size: 1rem;
     border-radius: 2rem;
+    display: flex;
+    justify-content: space-evenly;
 }
 #raf_enter{
     display: inline-block;
@@ -147,4 +149,13 @@ background-color: #bd081c;
     padding: 0;
   
 
+}
+.close_raf>svg{
+    width: 2.5rem;
+    height: 2.5rem;
+    fill:#669966 ;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    right: 13rem;
 }
