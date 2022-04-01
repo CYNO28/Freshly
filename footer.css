@@ -1,0 +1,29 @@
+
+#bottom{
+    height:400px;
+    width:80%;
+    display : flex;
+    margin:auto;
+    margin-top: 50px;
+    margin-left: 220px;
+}
+#bot1{
+    height:400px;
+    width:100%;
+  
+}
+#bot1 img{
+    width:123px;
+    height:42px;
+}
+#bot1 p{
+    color:#666666
+}
+i{
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+#footer{
+    height: 388px;
+    margin-bottom: -4rem;
+}
