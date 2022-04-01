@@ -1,8 +1,15 @@
+*{
+    font-family: FavoritFreshly,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
 #main{
+    background-color: #fffdf7;
+
     /* border: 1px solid red; */
     height: 500px;
     width: 100%;
-
+    
 }
 #container-top{
 /* border: 1px solid blue; */
@@ -11,6 +18,7 @@ width: 100%;
 height: 80px;
 justify-content: space-around;
 margin: auto;
+background-color: #ffffff;
 box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 #container-top >div {
@@ -52,17 +60,19 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 
 }
 .login-form input {
     font-size: 15px;
-    width: 150%;
+    width: 120%;
     padding: 15px 8px;
+    margin-top: -1rem;
     
    
 }
 .login-form button {
  font-size: 18px;
+
  font-weight: bold;
  margin: 20px 0;
- padding: 5px 10px;
- width: 155%;
+ padding: 12px ;
+ width: 125%;
  border: none;
  background-color: #2a6dff;
  color: white;
@@ -79,11 +89,12 @@ img {
     font-size: 15px;
  font-weight: bold;
  margin: 20px 0;
- padding: 15px 20px;
- width: 100%;
  border: none;
  background-color: #2a6dff;
  color: white;
+ text-align: center;
+ padding: 10px 16px;
+
 }
 .sing-up button >a {
     color: white;
@@ -106,5 +117,21 @@ img {
 
     border-top: 2px solid #dee2e6;
     margin-left: -150%;
+  
 
+}
+div.login-form{
+    margin-top: 10rem;
+
+}
+img{
+    cursor: pointer;
+}
+input:hover{
+
+    border: 1px solid #2a6dff;
+}
+form.login{
+    margin-left: -4rem;
+    
 }
