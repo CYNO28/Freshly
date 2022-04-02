@@ -468,3 +468,14 @@ i{
      margin: 0px;
      margin-bottom: 5px;
  }
+     
+button:hover{
+    transform:translate(2px,-2px);
+    cursor: pointer;
+  
+}
+.left_raf>span{
+
+    width: 100%;
+    margin: 2rem;
+}

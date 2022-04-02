@@ -135,3 +135,9 @@ form.login{
     margin-left: -4rem;
     
 }
+#bot1>p{
+    cursor: pointer;
+    color: #3167fa;
+
+    text-decoration: underline;
+}
