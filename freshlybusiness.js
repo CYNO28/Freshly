@@ -13,12 +13,18 @@ function myFunction(){
  
 
 
-document.querySelector(".form-control2").addEventListener("click",myFunction2);
+// document.querySelector(".form-control2").addEventListener("click",myFunction2);
 
-function myFunction2(){
-    var x = document.querySelector(".form-control2").value;
-    if(x==="Please Select"){
-        var y = document.querySelector(".insideText2");
-        y.textContent = "Please select an option from the dropdown menu.";
-    }
-}
+// function myFunction2(){
+//     var x = document.querySelector(".form-control2").value;
+//     if(x==="Please Select"){
+//         var y = document.querySelector(".insideText2");
+//         y.textContent = "Please select an option from the dropdown menu.";
+//     }
+// }
+
+// document.querySelector(".btn").addEventListener("click", scrollGet);
+
+// function scrollGet(){
+//     window.location.href=".form-row";
+// }
