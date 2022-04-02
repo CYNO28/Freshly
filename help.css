@@ -168,3 +168,11 @@ color:#303030;
   padding-top: 20px;
 color:#636363;
 }
+#top_flex{
+  display: flex;
+  position: absolute;
+  right:0;
+  margin: 0;
+  width:15rem;
+  cursor: pointer;
+}
