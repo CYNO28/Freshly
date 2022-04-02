@@ -214,11 +214,6 @@ margin-bottom: 30px;
 border: none;
 }
 
-button:hover{
-    
-
-  }
-
   .midh3{
 
     padding-top: 30px;
@@ -381,4 +376,10 @@ button:hover{
     transform:translate(2px,-2px);
     cursor: pointer;
   
+}
+
+.left_raf>span{
+
+    width: 100%;
+    margin: 2rem;
 }
