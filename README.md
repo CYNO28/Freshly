@@ -28,3 +28,5 @@ HTML -(Hyper Text Markup Language (HTML) is a markup language that allows us to 
 CSS — for Styling (Cascading Style Sheets (CSS) is a styling language used to describe the visual appearance of HTML elements. It can be used to controls aspects like the positioning of an element, its dimensions, text style or colors, or almost any other visual aspect of a website.)
 JavaScript — for logic and interactions(It allows us to add custom behavior to your websites, such as reacting to user events, loading data from web services and showing or hiding elements on a page.)
 <p/>
+  
+  <img src="https://miro.medium.com/max/1400/1*DelOq84p3Ab7H7hGPVu4cw.png"/>
