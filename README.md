@@ -3,7 +3,7 @@
 <h6>We tried to make the frontend clone of the website we used HTML,CSS ,JAVASCRIPT to build the clone of the website
 <h6/>
 <p>“Great things in a bussiness are never done by a person they’re done by a team of people”, So it was our first team project, and we learnt a lot from each other and learnt how to collaborate on a project as a team. It was a great experience working as a team and whatever small thing we made, we gave our best.<p/> 
-live Link:- nimble-fudge-35bf79.netlify.app/
+live Link:-<p> nimble-fudge-35bf79.netlify.app/<p/>
 <img src="https://miro.medium.com/max/1400/1*RNFEjGWXC4S9PgWIBEcrhA.jpeg" width="500px" height="350px"><img/>
 
 <h1>OUR TEAM<h1/>
